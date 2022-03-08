@@ -6,6 +6,9 @@ const Reviews = () => {
     const { reviews } = useReviews();
     return (
         <div className='container my-5'>
+            <div className='text-center'>
+                <h2>Our Client Reviews</h2>
+            </div>
             <div className="row row-cols-1 row-cols-md-3 g-4">
 
                 {

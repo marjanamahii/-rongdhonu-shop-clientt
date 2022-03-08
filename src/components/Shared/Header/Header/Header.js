@@ -1,38 +1,5 @@
-// import React from 'react';
-// import { NavLink } from 'react-router-dom';
-// import useAuth from '../../../hooks/useAuth';
-// import logo from '../../../images/logo.png';
-// import './Header.css';
-
-
-// const Header = () => {
-//     const { user, logOut } = useAuth();
-//     return (
-//         <div className="header">
-//             <img className="logo" src={logo} alt="" />
-//             <nav>
-//                 <NavLink to="/shop">Shop</NavLink>
-//                 <NavLink to="/review">Order Review</NavLink>
-//                 <NavLink to="/inventory">Manage Inventory</NavLink>
-//                 <NavLink to="/payment">Payment</NavLink>
-//                 <NavLink to="/dashboard">Dashboard</NavLink>
-//                 {user.email && <NavLink to="/orders">Orders</NavLink>}
-//                 {user.email && <span style={{ color: 'white' }}>Hello {user.displayName} </span>}
-//                 {
-//                     user.email ?
-//                         <button onClick={logOut}>log out</button>
-//                         :
-//                         <NavLink to="/login">Login</NavLink>}
-//             </nav>
-//         </div>
-//     );
-// };
-
-// export default Header;
-
-// import Button from '@restart/ui/esm/Button';
 import React, { useState } from 'react';
-import { Container, Dropdown, Form, FormControl, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../../hooks/useAuth';
 // import logo from '../../../images/logo.png';
@@ -120,13 +87,7 @@ const Header = () => {
                                         </div>
                                     </div>
                                 </Nav.Link>
-
-
                             }
-
-
-
-
 
                         </Nav>
 

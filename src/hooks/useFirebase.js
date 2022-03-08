@@ -186,7 +186,6 @@ const useFirebase = () => {
         })
             .finally(() => setIsLoading(false));
     }
-    // https://agile-atoll-48938.herokuapp.com
     const saveUser = (email, displayName, method) => {
         const user = { email, displayName };
         fetch('http://localhost:7000/users', {

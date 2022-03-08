@@ -13,7 +13,7 @@ const ManageOrders = () => {
       });
   }, [orders]);
 
-  console.log(orders);
+  // console.log(orders);
 
   const shippedOrder = (id) => {
     fetch(`http://localhost:7000/orders/${id}`, {

@@ -17,16 +17,16 @@ const DashboardHome = () => {
                 Dashboard
             </h1>
             <div className="row g-4">
-                <div className="col-lg-6">
-                    <div className="text-center d-inline-block border border-3 p-4 dashbord-box  w-100">
-                        <h2>Total Products</h2>
-                        {/* <h1>{projects.length}</h1> */}
-                        <Link to="/dashboard/manageproducts">
+                {/* <div className="col-lg-6"> */}
+                {/* <div className="text-center d-inline-block border border-3 p-4 dashbord-box  w-100"> */}
+                {/* <h2>Total Products</h2> */}
+                {/* <h1>{projects.length}</h1> */}
+                {/* <Link to="/dashboard/manageproducts">
                             <button className="shops-btn">Manage All Products</button>
-                        </Link>
+                        </Link> */}
 
-                    </div>
-                </div>
+                {/* </div> */}
+                {/* </div> */}
                 {/* <div className="col-lg-6">
                     <div className="text-center d-inline-block border border-3 p-4 dashbord-box  w-100">
                         <h2>Total Orders</h2>
@@ -41,9 +41,9 @@ const DashboardHome = () => {
                     <div className="text-center d-inline-block border border-3 p-4 dashbord-box  w-100">
                         <h2>Total Users</h2>
                         <h1>{users.length}</h1>
-                        <Link to="/dashboard/manageusers">
+                        {/* <Link to="/dashboard/manageusers">
                             <button className="shops-btn">Manage All Users</button>
-                        </Link>
+                        </Link> */}
 
                     </div>
                 </div>
@@ -51,9 +51,9 @@ const DashboardHome = () => {
                     <div className="text-center d-inline-block border border-3 p-4 dashbord-box  w-100">
                         <h2>Total Reviews</h2>
                         <h1>{reviews.length}</h1>
-                        <Link to="/dashboard/managereviews">
+                        {/* <Link to="/dashboard/managereviews">
                             <button className="shops-btn">Manage All Reviews</button>
-                        </Link>
+                        </Link> */}
 
                     </div>
                 </div>

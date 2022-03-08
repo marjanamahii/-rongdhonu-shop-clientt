@@ -8,7 +8,7 @@ const useReviews = () => {
             .then(res => res.json())
             .then(data => setReview(data))
             .finally(() => setSpinner(false));
-    }, [reviews])
+    }, [])
 
     return {
         reviews,

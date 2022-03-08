@@ -2,7 +2,7 @@ import React from 'react';
 import './Contact.css';
 // import { init } from 'emailjs-com';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faGithub, faLinkedin, faTwitter, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faTwitter, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import MyForm from '../MyForm/MyForm';
 import { faEnvelope, faMapMarkerAlt, faPaperPlane, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 import Footer from '../../Shared/Footer/Footer';

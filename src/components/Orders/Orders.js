@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import useAuth from './../../hooks/useAuth';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Table } from 'react-bootstrap';
 import swal from "sweetalert";
 import './Orders.css';
@@ -11,8 +11,7 @@ import './Orders.css';
 const Orders = () => {
     const [orders, setOrders] = useState([]);
     const { user } = useAuth();
-    // const history = useHistory();
-    const navigate = useNavigate()
+    // const navigate = useNavigate()
 
     useEffect(() => {
         fetch(`http://localhost:7000/orders?email=${user.email}`, {
@@ -26,8 +25,8 @@ const Orders = () => {
                     return res.json();
                 }
                 else if (res.status === 401) {
-                    console.log("Navigate to login");
-                    // navigate('/login')
+                    // console.log("Navigate to login");
+                    // navigate('/dashboard/manageorders')
                 }
 
             })

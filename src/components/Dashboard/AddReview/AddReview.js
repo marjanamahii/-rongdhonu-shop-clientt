@@ -26,7 +26,7 @@ const AddReview = () => {
 
     useEffect(() => {
         setDefaultValue({ name: user.displayName, email: user.email, photo: user.photoURL })
-    }, []);
+    }, [user.displayName, user.email, user.photoURL]);
 
     useEffect(() => {
         reset(defaultValue)
